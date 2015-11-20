@@ -1,0 +1,18 @@
+{
+    "contents" : "\nlibrary(shiny)\n\nshinyUI(\n  \n  fluidPage( \n    \n    sliderInput(\"distance\", label=\"Distance (km)\", min=0, max=1000, value=0),\n    sliderInput(\"speed\", label=\"Speed (km/h)\", min=0, max=300, value=1),\n    \n    mainPanel(\n      h3('Estimated Time For a Trip'),\n      h6(\"This application calculates the estimated time for a trip. You only need to provide the intended distance and speed for this trip and the application will calculate the time immediatly and show it on the screen\"),\n      h6(\"Considered unites for distance, speed and time are all explained below, km for distance, km/hr for speed and consequanlty hour unit for time (result)\"),\n      h4('You entered for disctance'),\n      textOutput(\"dis\"),\n      h4('You entered for speed'),\n      textOutput(\"spe\"),\n      h4('Estimated time in hours is '),\n      textOutput(\"time\")\n    )\n  )\n)\n\n",
+    "created" : 1447955475713.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "841658164",
+    "id" : "D4CB6A41",
+    "lastKnownWriteTime" : 1448023554,
+    "path" : "~/Documents/coursera/Data Products/ProjectFinal/ui.R",
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 0,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

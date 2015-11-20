@@ -1,0 +1,17 @@
+{
+    "contents" : "library(shiny)\nshinyUI(\nfluidPage(\nsliderInput(\"distance\", label=\"Distance (km)\", min=0, max=1000, value=0),\nsliderInput(\"speed\", label=\"Speed (km/h)\", min=0, max=300, value=1),\nmainPanel(\nh3('Estimated Time For a Trip'),\nh4('You entered for disctance'),\ntextOutput(\"dis\"),\nh4('You entered for speed'),\ntextOutput(\"spe\"),\nh4('Estimated time in hours is '),\ntextOutput(\"time\")\n)\n)\n)\nlibrary(shiny)\nshinyServer(\nfunction(input, output){\noutput$dis<- renderText({input$distance})\noutput$spe<- renderText({input$speed})\noutput$time<- renderText({input$distance/input$speed})\n}\n)\nrunApp()\nload(\"~/Documents/coursera/Data Products/CourseProjectFinal/.RData\")\nload(\"~/Documents/coursera/Data Products/CourseProjectFinal/.RData\")\nrunApp()\nlibrary(shiny)\nshinyUI(\nfluidPage(\nsliderInput(\"distance\", label=\"Distance (km)\", min=0, max=1000, value=0),\nsliderInput(\"speed\", label=\"Speed (km/h)\", min=0, max=300, value=1),\nmainPanel(\nh3('Estimated Time For a Trip'),\nh4('You entered for disctance'),\ntextOutput(\"dis\"),\nh4('You entered for speed'),\ntextOutput(\"spe\"),\nh4('Estimated time in hours is '),\ntextOutput(\"time\")\n)\n)\n)\nlibrary(shiny)\nshinyServer(\nfunction(input, output){\noutput$dis<- renderText({input$distance})\noutput$spe<- renderText({input$speed})\noutput$time<- renderText({input$distance/input$speed})\n}\n)\nrunApp()\ndevtools::install.github(\"rstudio/shinyapps\")\ndevtools::install_github(\"rstudio/shinyapps\")\nshinyapps::setAccountInfo(name='sonya', token='4B86FCACC193DC032580EF88C7E31099', secret='PI9L4yeOGN2RBXRznygizT7Yt9BCbNFQk+N7ijGZ')\nrunApp()\nrunApp(\"CourseProjectFinal\")\ngetwd()\nsetwd(\"/Users/sonya/Documents/coursera/Data Products\")\ngetwd()\nrunApp(\"CourseProjectFinal\")\ndevtools::install_github(\"rstudio/shinyapps\")\nshinyapps::setAccountInfo(name='sonya', token='4B86FCACC193DC032580EF88C7E31099', secret='PI9L4yeOGN2RBXRznygizT7Yt9BCbNFQk+N7ijGZ')\nrunApp(\"CourseProjectFinal\")\noutput$time<- renderText({input$distance/input$speed})\nlibrary(shiny)\nshinyServer(\nfunction(input, output){\noutput$dis<- renderText({input$distance})\noutput$spe<- renderText({input$speed})\noutput$time<- renderText({input$distance/input$speed})\n}\n)\ngetwd()\nsetwd(\"/Users/sonya/Documents/coursera/Data Products/ProjectFinal\")\ngetwd()\nlist.files()\nrunApp()\nshiny::runApp('~/Documents/coursera/Data Products/ProjectFinal')\n",
+    "created" : 1447948490202.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "361986274",
+    "id" : "DB1D8B01",
+    "lastKnownWriteTime" : 1447957506,
+    "path" : "~/Documents/coursera/Data Products/CourseProjectFinal/.Rhistory",
+    "project_path" : ".Rhistory",
+    "properties" : {
+    },
+    "relative_order" : 0,
+    "source_on_save" : false,
+    "type" : "r_history"
+}

@@ -1,0 +1,18 @@
+{
+    "contents" : "library(shiny)\n\n\nshinyServer(\n  function(input, output){\n    output$dis<- renderText({input$distance})\n    output$spe<- renderText({input$speed})\n    output$time<- renderText({input$distance/input$speed})\n  }\n)\n\n\n",
+    "created" : 1447955375940.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3104824227",
+    "id" : "57EAD706",
+    "lastKnownWriteTime" : 1447955410,
+    "path" : "~/Documents/coursera/Data Products/CourseProjectFinal/server.R",
+    "project_path" : "server.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 0,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
